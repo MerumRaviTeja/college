@@ -1,0 +1,9 @@
+<title>Registration and login Form</title>
+
+<form method="POST">
+          {% csrf_token %}
+          
+          {{ form.as_table }}
+     <input type="submit" value="submit">
+    
+</form>
